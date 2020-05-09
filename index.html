@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo FancyBox</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<style>
+		.gallery{
+			max-width: 80%;
+			margin: 0 auto;
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.gallery img{
+			width: 200px;
+			margin: 15px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="gallery">
+
+<a href="img/big_img/1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+	<img src="img/small_img/1.jpg">
+</a>
+<a href="img/big_img/2.jpg" data-fancybox="gallery" data-caption="Caption #2">
+	<img src="img/small_img/2.jpg">
+</a>
+<a href="img/big_img/3.jpg" data-fancybox="gallery" data-caption="Caption #3">
+	<img src="img/small_img/3.jpg">
+</a>
+<a href="img/big_img/4.jpg" data-fancybox="gallery" data-caption="Caption #4">
+	<img src="img/small_img/4.jpg">
+</a>
+<a href="img/big_img/5.jpg" data-fancybox="gallery" data-caption="Caption #5">
+	<img src="img/small_img/5.jpg">
+</a>
+
+</div>
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+</body>
+</html>
